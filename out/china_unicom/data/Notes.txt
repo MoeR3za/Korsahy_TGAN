@@ -1,0 +1,5 @@
+China Unicom data modifications:
+
+- Every entry represented a 5 minutes reading.
+- Every 2 entries were summed so every entry would represent a 10 minutes reading.
+- Data was MinMax scaled before entering the tgan model.
